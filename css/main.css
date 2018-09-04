@@ -1,6 +1,6 @@
 body {
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   color: #515151;
   font-size: 16px;
   line-height: 2em;
@@ -8,6 +8,7 @@ body {
   min-width: 300px;
   padding: 3% 4%;
   margin: auto;
+  overflow-y: scroll;
 }
 
 #header {
@@ -22,9 +23,18 @@ body {
   width: 40%;
 }
 
+#logo a {
+  color: #515151;
+  text-decoration: none;
+}
+
 #logo h1,
 #logo h2 {
   margin: 0;
+}
+
+#logo h1 {
+  font-weight: 500;
 }
 
 #logo h2 {
@@ -56,10 +66,16 @@ body {
 }
 
 #menu-links span {
+  font-weight: 400;
   padding-left: 8%;
 }
 
+#menu-links span a:hover {
+  font-weight: 500;
+}
+
 .active-link {
+  font-weight: 500;
   color: #F58E23;
   text-decoration: none;
 }
