@@ -121,6 +121,7 @@ body {
 @media (max-width: 800px) {
   body {
     font-size: 14px;
+    margin-bottom: 40px;
   }
 }
 
