@@ -54,10 +54,10 @@ body {
 }
 
 #menu-links {
+  width: 100%;
   font-size: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  display: inline-block;
+  text-align: right;
 }
 
 #menu-links a:not(.active-link) {
@@ -101,13 +101,10 @@ body {
   line-height: 6rem;
   width: 100%;
   height: 80%;
-  display: flex !important;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
 }
 
 #menu.mobile-menu #menu-links span {
+  display: block;
   text-align: center;
   padding: 0;
 }
