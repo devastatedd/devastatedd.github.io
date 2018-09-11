@@ -106,6 +106,14 @@ body {
   padding: 0;
 }
 
+.loading-icon {
+  background-color: transparent;
+  background-image: url("../img/placeholder.gif");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 40px;
+}
+
 @media (max-width: 1200px) {
   body {
     font-size: 15px;

@@ -22,31 +22,6 @@
   margin-bottom: 10px;
 }
 
-@keyframes spin {
-	from{transform:rotate(0deg)}
-	to{transform:rotate(360deg)}
-}
-
-@-webkit-keyframes spin {
-	from{transform:rotate(0deg)}
-	to{transform:rotate(360deg)}
-}
-
-.loading-icon:before {
-  content: "";
-  position: absolute;
-  height: inherit;
-  width: inherit;
-  z-index: -1;
-  background-color: transparent;
-  background-image: url(../img/placeholder.png);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: 10%;
-  -webkit-animation: spin 1.5s linear infinite;
-  animation: spin 1.5s linear infinite;
-}
-
 .item a {
   color: #515151;
   text-decoration: none;

@@ -35,8 +35,8 @@
 
 .art-display img {
   width: 100%;
-  height: 400px;
-  background-color: gray;
+  min-height: 100px;
+  min-width: 100px;
   box-sizing: border-box;
 }
 
@@ -51,17 +51,4 @@
 .half-image {
   width: calc(50% - 10px);
   max-width: calc(50% - 10px);
-}
-
-@media (max-width: 800px) {
-  .art-display {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
-  .half-image {
-    width: calc(50% - 10px);
-    margin: auto;
-  }
 }
