@@ -4,7 +4,7 @@
 
 .art-section {
   display: block;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   text-align: center;
   font-weight: 500;
@@ -22,6 +22,10 @@
 
 .art-header > h2 {
   text-transform: uppercase;
+}
+
+.art-header > p {
+  margin: 0;
 }
 
 .art-display {
@@ -48,7 +52,44 @@
   width: 100%;
 }
 
+.full-image > p {
+  margin-top: 30px;
+}
+
+.short-p > p {
+  margin-top: 0;
+}
+
 .half-image {
   width: calc(50% - 10px);
   max-width: calc(50% - 10px);
+}
+
+.quarter-image {
+  width: calc(25% - 10px);
+  max-width: calc(25% - 10px);
+}
+
+@media (max-width: 700px) {
+  #content {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .half-image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .quarter-image {
+    width: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 500px) {
+  #content {
+    margin-top: 40px;
+  }
 }
