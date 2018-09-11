@@ -11,21 +11,20 @@
   justify-content: center;
 }
 
-#about-content div {
-  width: 50%;
+#about-content > div:first-of-type {
+  width: 35%;
 }
 
-#about-content div:first-child {
-  text-align: center;
+#about-content > div:last-of-type {
+  width: 65%;
 }
 
-#about-content div:last-child {
+#about-content > div:last-child {
   padding-left: 10px;
 }
 
 #about-content img {
-  width: 500px;
-  height: 500px;
+  width: 90%;
   background-color: transparent;
   background-image: url("../img/placeholder.jpg");
   background-size: 10%;
@@ -39,36 +38,6 @@
   line-height: 1.5rem;
 }
 
-@media (max-width: 1200px) {
-  #about-content img {
-    width: 450px;
-    height: 450px;
-  }
-}
-
-@media (max-width: 1000px) {
-  #about-content img {
-    width: 400px;
-    height: 400px;
-  }
-
-  #about-content div:last-child {
-    padding-left: 20px;
-  }
-}
-
-@media (max-width: 900px) {
-  #about-content img {
-    width: 375px;
-    height: 375px;
-  }
-
-  #about-content div:last-child {
-    padding-left: 30px;
-  }
-}
-
-
 @media (max-width: 800px) {
   #content {
     margin-top: 60px;
@@ -79,8 +48,13 @@
     flex-direction: column;
   }
 
-  #about-content div {
-    width: 75%;
+  #about-content > div:first-of-type {
+    width: 60%;
+    text-align: center;
+  }
+
+  #about-content > div:last-of-type {
+    width: 80%;
   }
 
   #about-content div:last-child {
@@ -92,13 +66,42 @@
   }
 }
 
-@media (max-width: 700px) {
-  #about-content img {
-    width: 350px;
-    height: 350px;
+@media (max-width: 1100px) {
+  #about-content > div:first-of-type {
+    width: 40%;
   }
 
-  #about-content div {
+  #about-content > div:last-of-type {
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  #about-content > div:first-of-type {
+    width: 45%;
+  }
+
+  #about-content > div:last-of-type {
+    width: 55%;
+  }
+}
+
+@media (max-width: 800px) {
+  #about-content > div:first-of-type {
+    width: 60%;
+  }
+
+  #about-content > div:last-of-type {
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  #about-content > div:first-of-type {
+    width: 70%;
+  }
+
+  #about-content > div:last-of-type {
     width: 80%;
   }
 }
@@ -108,25 +111,17 @@
     margin-top: 30px;
   }
 
-  #about-content img {
-    width: 325px;
-    height: 325px;
+  #about-content > div:first-of-type {
+    width: 80%;
   }
 
-  #about-content div {
+  #about-content > div:last-of-type {
     width: 90%;
   }
 }
 
 @media (max-width: 400px) {
-  #about-content img {
-    width: 300px;
-    height: 300px;
-  }
-}
-
-@media (max-width: 350px) {
-  #about-content {
-    align-items: stretch;
+  #about-content > div:first-of-type {
+    width: 90%;
   }
 }
