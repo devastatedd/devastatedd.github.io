@@ -28,6 +28,14 @@
   margin: 0;
 }
 
+.art-sub-header {
+  margin: 25px 0 20px 0;
+}
+
+.art-sub-header > p {
+  margin: 0;
+}
+
 .art-display {
   display: flex;
   flex-wrap: wrap;
