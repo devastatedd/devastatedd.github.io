@@ -2,7 +2,7 @@ body {
   font-family: 'Proxima Nova', sans-serif;
   font-weight: 400;
   color: #515151;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 2em;
   max-width: 1300px;
   min-width: 300px;
@@ -19,7 +19,7 @@ body {
 }
 
 #logo {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   width: 40%;
 }
 
