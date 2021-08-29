@@ -24,7 +24,7 @@
 
 .item a {
   color: #515151;
-  text-decoration: bold;
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
