@@ -41,6 +41,10 @@ body {
   font-weight: 400;
 }
 
+#logo img {
+  width: 42%;
+}
+
 #menu-hamburger {
   display: none;
 }
