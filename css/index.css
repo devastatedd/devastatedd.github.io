@@ -14,7 +14,7 @@
 }
 
 .image-container {
-  border-radius: 3%;
+  border-radius: 2%;
   border: 0;
   outline: 0;
   width: 400px;
@@ -24,7 +24,7 @@
 
 .item a {
   color: #515151;
-  text-decoration: none;
+  text-decoration: bold;
   display: flex;
   flex-direction: column;
   justify-content: center;
